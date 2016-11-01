@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Anda Memesan Kue :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namakue" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/moca"
+        android:id="@+id/gambarkue"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/pesanpengirim"
+        android:hint="Pesan Anda Kepada Kartu Nama"
+        android:layout_weight="0.52" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Kepada"
+        android:ems="10"
+        android:id="@+id/kepada" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Pengirim"
+        android:ems="10"
+        android:id="@+id/pengirim" />
+
+    <Button
+        android:text="Pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesan" />
+
+
+</LinearLayout>

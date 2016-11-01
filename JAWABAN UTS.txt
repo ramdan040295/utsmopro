@@ -1,0 +1,26 @@
+1. Tag xml ImageView
+2. Contoh dari atribut tag xml
+3. ILikePracticeSetsTheBest
+4. RelativeLayout dan LinearLayout disebut juga dengan view group
+5. <RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"> 
+       <Button
+       android:id="@+id/lyla_text_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="24sp"
+       android:text="Click Me"
+
+       android:layout_alignParentBottom="true"	 	
+       android:layout_centerHorizontal="true" />
+  
+       </RelativeLayout>
+
+   Untuk menempatkan button agar berada pada bagian tengah bawah, maka menggunakan : 
+   android:layout_alignParentBottom="true"
+   android:layout_centerHorizontal="true"
+6. koding pada no. 6 merupakan contoh penerapan linear layout.
+   Untuk 6(1) merupakan linear layout dengan orientasi secara vertikal (tersusun ke bawah), 
+   Untuk 6(2) merupakan linear layout dengan orientasi secara horizontal (tersusun ke samping).
